@@ -1,0 +1,59 @@
+محاسبه میانگین اعداد در یک لیست
+
+li = [11, 11, 21, 31, 80]
+print('Mean: ', sum(li) / len(li))
+
+#------------------------------
+حذف تکرارها از یک لیست
+
+ki = set(li)
+print(ki)
+#--------------------------------
+پیدا کردن بزرگترین و کوچکترین عدد
+
+print('max:', max(li))
+print('min:', min(li))
+#--------------------------------
+معکوس کردن رشته
+
+string = 'My name is Mostafa'
+print("".join(reversed(string)))
+#---------------------------------
+تقسیم یک رشته براساس یک کاراکتر خاص
+
+txt = "welcome to my home"
+x = txt.split()
+print(x)
+
+#----------------------------------
+تبدیل اعداد به رشته
+
+number = 87659
+number_string = str(number)
+print(type(number))
+print(type(number_string))
+#--------------------------------------
+
+برعکس کردن یک رشته
+
+string = str(input('string: '))
+print(string[::-1])
+#--------------------------------------
+
+تعداد تکرار یک کاراکتر در یک رشته
+
+my_string = str(input('Enter your string: '))
+my_char = str(input('Enter your character: '))
+print(my_string.count(my_char))
+#-------------------------------------------------
+تبدیل رشته به حروف کوچک و بزرگ
+
+my_string = str(input('Enter your string: '))
+print(my_string.upper())
+print(my_string.lower())
+#---------------------------------------------------
+پیدا کردن اندیس اولین تکرار کاراکتر در یک رشته
+
+my_string = str(input('Enter your string: '))
+my_char = str(input('Enter your character: '))
+print(my_string.find(my_char))
